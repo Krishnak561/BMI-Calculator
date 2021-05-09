@@ -14,9 +14,10 @@ class ResultsPage extends StatelessWidget {
         automaticallyImplyLeading: false,
       ),
       body: Column(
-        children: [
+        children: <Widget>[
           Expanded(
             child: Container(
+              child: Text('HI'),
               margin: EdgeInsets.all(15.0),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
